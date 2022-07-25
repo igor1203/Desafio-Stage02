@@ -1,0 +1,116 @@
+body {
+  background-color: #2F2E41;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Jet-Brains Mono', monospace;
+  margin: 0;
+  min-width: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 71px 98px 101px 99px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 64px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 28px;
+  
+}
+
+li a:hover {
+  font-weight: bold;
+  color: rgb(53, 129, 53)
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 99px;
+  padding-right: 89px;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 77px;
+  margin-bottom: 59px;
+  margin-right: 89px;
+  width: 361px;
+  white-space: nowrap;
+}
+
+p {
+  font-family: 'Open-Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-left: 82px;
+  text-align: center;
+  color: #c2c2c2;
+  margin-right: 89px;
+}
+
+span {
+  color: #00BFA6;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 157px;
+}
+
+footer div a {
+  text-decoration: none;
+  color: white;
+}
+
+footer div a:hover {
+  color: rgb(154, 36, 36);
+}
+
+.line {
+  border: 1px solid #00BFA6;
+  width: 568px;
+  height: 0px;
+  justify-content: center;
+  margin-bottom: 27px;
+}
+
+.text {
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
